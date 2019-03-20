@@ -1,0 +1,28 @@
+{
+    "mysql": {
+        "connectionLimit" : 10,
+        "user": "root",
+        "password": "password",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "database": "apollo"
+    },
+    "log": {
+        "directoryPath": "",
+        "parentDirectoryPath": ""
+    },
+    "port": {
+        "staging": 7000,
+        "production": null
+    },
+    "redisLocal": {
+        "port": 6379,
+        "host": "127.0.0.1",
+        "db": 1
+    },
+    "redisServer": {
+        "port": 6379,
+        "host": "127.0.0.1",
+        "db": 1
+    }  
+}

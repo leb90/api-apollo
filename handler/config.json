@@ -1,0 +1,135 @@
+{
+	"correct": {
+		"status": 200,
+		"message": "Correctly"
+	},
+	"password": {
+		"status": 200,
+		"message": "Changed password"
+	},
+	"request": {
+		"status": 400,
+		"message": "Incorrect request"
+	},
+	"permission": {
+		"status": 401,
+		"message": "Not authorized"
+	},
+	"file": {
+		"status": 404,
+		"message": "Not found"
+	},
+	"server": {
+		"status": 500,
+		"message": "Server error"
+	},
+	"token": {
+		"status": 401,
+		"message": "Expired token"
+	},
+	"invalidtoken": {
+		"status": 498,
+		"message": "Invalid Token"
+	},
+	"errorMail": {
+		"status": 500,
+		"message": "Error sending the email: "
+	},
+	"sentMail": {
+		"status": 200,
+		"message": "Message sent!"
+	},
+	"expiredPass": {
+		"status": 401,
+		"message": "The password change request has expired."
+	},
+	"expiredHash": {
+		"status": 500,
+		"message": "The password change request has expired."
+	},
+	"invalidEmail": {
+		"status": 400,
+		"message": "The current email is invalid."
+	},
+	"successDelete": {
+		"status": 200,
+		"message": "Successfully deleted"
+	},
+	"serverUp": {
+		"status": 200,
+		"message": "server_up"
+	},
+	"mailExist": {
+		"status": 500,
+		"message": "ERROR: Mail already existent"
+	},
+	"missingId": {
+		"status": 400,
+		"message": "Missing ID"
+	},
+	"invalidId": {
+		"status": 400,
+		"message": "Invalid ID"
+	},
+	"alreadyExist": {
+		"status": 400,
+		"message": "Already exist"
+	},
+	"wrongEmail": {
+		"status": 500,
+		"message": "The email dont't exist or is not an admin"
+	},
+	"cantPass": {
+		"status": 500,
+		"message": "Can't change password"
+	},
+	"badDataInfo": {
+		"status": 500,
+		"message": "The path/id is incorrect"
+	},
+	"cantFindUser": {
+		"status": 500,
+		"message": "Can't find the user"
+	},
+	"passwordIsEmpty": {
+		"status": 500,
+		"message": "The password is empty"
+	},
+	"oldPasswordWrong": {
+		"status": 500,
+		"message": "The old password is wrong",
+		"keyTranslate": "oldPasswordWrong"
+	},
+	"userIdWrong": {
+		"status": 500,
+		"message": "The user don't exist"
+	},
+	"registerError": {
+		"status": 500,
+		"message": "Registration error"
+	},
+	"alreadyExistEmail": {
+		"status": 409,
+		"message": "The email already exist"
+	},
+	"cantEditUserData": {
+		"status": 500,
+		"message": "Can't edit user data"
+	},
+	"badHash": {
+		"status": 500,
+		"message": "Wrong Hash"
+	},
+	"userBadRegistered": {
+		"status": 500,
+		"message": "User bad registered"
+	},
+	"invalidHashValidateEmail": {
+		"status": 500,
+		"message": "Invalid hash"
+	},
+	"userValidateAlreadyUsed": {
+		"status": 500,
+		"message": "Hash already used"
+	}
+}

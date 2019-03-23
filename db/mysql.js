@@ -8,7 +8,7 @@ connNew.connect(err => {
         return console.log("With out DataBase connection",err);
     }
 
-    connNew.config.queryFormat = (query, values) => {
+    connNew.config.queryFormat = function(query, values) {
         if (!values) {
             return query;
         }

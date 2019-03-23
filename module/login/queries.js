@@ -4,11 +4,11 @@ module.exports = {
 		    id,
 		    name,
 		    email,
-		    password,
-		    rol_id
+			password,
+			nickname
 		FROM
 		    user
 		WHERE
-		    email = :email
+		    nickname = :nickname
 		        AND password = :password`
 };

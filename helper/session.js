@@ -1,7 +1,3 @@
-/*
-*helper for make session
-*
-*/
 "use strict";
 const crypto = require('crypto');
 const expires = require('expires');

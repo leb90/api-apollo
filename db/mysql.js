@@ -5,7 +5,7 @@ const connNew = mysql.createConnection(ConfigServer.mysql);
 
 connNew.connect(err => {
     if (err) {
-        return console.log("With out DataBase connection",err);
+        return console.log("Without Database connection",err);
     }
 
     connNew.config.queryFormat = function(query, values) {

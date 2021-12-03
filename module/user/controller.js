@@ -9,7 +9,7 @@ const controllerUser = new BaseController({
 	 getUsers(callback) {
 		this.executeQuery(queries.getUsers, (err, rows) => {
 			if (err) throw err;
-			callback(err, rows[0]);
+			callback(err, rows);
 		});
 	},
 
